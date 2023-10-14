@@ -1,0 +1,14 @@
+
+/* Applies to print views */
+@media print {
+    /* styles applied only when printing/previewing */
+    /* set appropriate layouts and colors */
+    /* (i.e. no background color) */
+    }
+
+/* Applies to screens  */
+@media screen and (max-width: 600px) {
+    /* narrow screens only (like mobile) */
+    /* hide or shrink elements */
+}
+    

@@ -1,0 +1,17 @@
+@media screen and (max-width: 600px) {
+    /* narrow screens only (like mobile) */
+}
+
+@media screen and (min-width: 768px) {
+    /* Wide screens (like maximized desktop) */
+}
+
+@media (min-width: 768px) {
+    /* Screen is optional */
+    /* wide screen (like maximized desktop) */
+}
+
+/* 
+    IMPORTANT: Remember to add the media property in the link as follows:
+        <link rel="stylesheet" media="print" href="media-print.css" >
+*/

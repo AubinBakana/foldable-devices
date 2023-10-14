@@ -1,0 +1,17 @@
+/* Media queries - print */
+
+@media print {
+    /* styles applies only when printing/previewing */
+    /* Set appropriate layouts and colors */
+
+    /* e.g. background color */
+    html { background-color: white; }
+
+    /* e.g hide menus or nav */
+    .nav { display: none; }
+}
+
+/* 
+    IMPORTANT: Remember to add the media property in the link as follows:
+        <link rel="stylesheet" media="print" href="media-print.css" >
+*/

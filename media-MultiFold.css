@@ -1,0 +1,22 @@
+@media (horizontal-viewport-segments:2) {
+    /* styles applied in double-portrait (wide) mode */
+}
+
+@media (vertical-viewport-segments:2) {
+    /* styles applied in double-landscape (tall) mode */
+}
+
+@media (horizontal-viewport-segments:3) {
+    /* styles applied in triple-landscape (really wide) mode */
+}
+
+/* 
+    ENVIRONMENT VIARIABLES
+    env(view-port-width 0 0)
+    env(view-port-height 0 0)
+    env(view-port-right 0 0)
+    env(view-port-left 1 0)    
+
+    IMPORTANT: Remember to add the media property in the link as follows:
+        <link rel="stylesheet" media="screen" href="media-print.css" >
+*/

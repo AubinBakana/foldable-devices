@@ -1,0 +1,36 @@
+@media (screen-spanning: single-fold-vertical) {
+    /* styles applied in double-portrait (wide) mode */
+}
+
+@media(screen-spanning: single-fold-horizontal) {
+    /* styles applied in double-landscape (tall) mode */
+}
+
+
+/* 
+    NEW ENVIRONMENT VIARIABLES
+    env(fold-left)
+    env(fold-top)
+    env(fold-width)
+    env(fold-height)
+
+    IMPORTANT: Remember to add the media property in the link as follows:
+        <link rel="stylesheet" media="screen" href="media-print.css" >
+*/
+
+/* EXAMPLE: single fold */
+@media (screen-spanning: single-fold-vertical) {
+    .yellow {
+        height: 100px;
+        width: calc(100vw - env(fold-left) - env(fold-width)); /* fold-right. vw is short for view */
+        position: absolute;
+        left: calc(env(fold-left) + env(fold-width)); /* fold-right */
+        top: 0;
+        background-color: yellow;
+        text-align: center;
+
+
+    }
+}
+
+
