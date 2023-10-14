@@ -13,5 +13,7 @@
 
 /* 
     IMPORTANT: Remember to add the media property in the link as follows:
-        <link rel="stylesheet" media="print" href="media-print.css" >
+        <link rel="stylesheet" media="screen" href="media-print.css" >
+
+        (media can be either print or screen)
 */
